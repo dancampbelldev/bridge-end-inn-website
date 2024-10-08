@@ -491,7 +491,7 @@ color: #fff;
   font-size: 4rem;
   top: 50%;
   transform: translateY(-50%);
-  color: rgba(255, 255, 255, .7);
+  color: rgba(255, 255, 255, .5);
   cursor: pointer;
   border-radius: .25rem;
   padding: 0 0.5rem;
