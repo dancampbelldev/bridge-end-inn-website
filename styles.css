@@ -573,7 +573,7 @@ color: #fff;
     font-size: 4rem;
   }
 
-  .slide > img {
+  .slide > img, .background-img {
     height: 100%;
   }
 }
