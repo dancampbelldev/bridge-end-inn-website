@@ -357,6 +357,10 @@ body {
   font-size: 1.2rem;
 }
 
+.bank-hol {
+  padding-top: 30px;
+}
+
 .map-container {
   border: 5px solid gray;
 }
