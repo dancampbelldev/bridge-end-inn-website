@@ -576,12 +576,12 @@ color: #fff;
 
   .slide > img {
     height: 100vh;
-    overflow: hidden;
+    position: fixed;
   }
 
   .background-img {
     height: 100vh;
-    overflow: hidden;
+    position: fixed;
   }
 }
 
