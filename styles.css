@@ -152,6 +152,7 @@ body {
   display: block;
   object-fit: cover;
   object-position: center;
+  min-width: 100%;
 }
 
 #dark-box {
@@ -489,6 +490,7 @@ color: #fff;
   display: block;
   object-fit: cover;
   object-position: center;
+  min-width: 100%;
 }
 
 .slide[data-active] {
