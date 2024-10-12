@@ -572,6 +572,10 @@ color: #fff;
   #events-container, #photos-section {
     font-size: 4rem;
   }
+
+  .slide > img {
+    height: 100%;
+  }
 }
 
 @media (min-width: 768px) {
