@@ -420,7 +420,7 @@ color: #fff;
   margin: 1rem 0;
   transform: translateY(20px);
   opacity: 0;
-  transition: 1s ease;;
+  transition: 1.3s ease;;
 }
 
 .paragraph--visible {
