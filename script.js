@@ -4,6 +4,30 @@ const navMenu = document.querySelector(".nav-bar-container-vis");
 const bars = document.querySelector(".toggle-container");
 const width = window.innerWidth;
 
+// Paragraph animation variable
+const paragraphs = document.querySelectorAll('.paragraph');
+
+
+// Paragraph animation
+
+document.addEventListener('scroll', function() {
+  paragraphs.forEach((paragraph) => {
+    if(isInView(paragraph)) {
+      paragraph.classList.add('paragraph--visible');
+    }
+  });
+});
+
+function isInView(element) {
+  const rect = element.getBoundingClientRect();
+  return (
+    rect.bottom > 0 && rect.top < (window.innerHeight - 150 
+                || document.documentElement.clientHeight - 150)
+    );
+}
+
+//Paragraph animation end
+
 menu.addEventListener("click", function() {
   menu.classList.toggle("is-active");
   menuLinks.classList.toggle("active");
