@@ -414,6 +414,20 @@ body {
 color: #fff;
 }
 
+/* Paragraphs animation ------------------------------------------- */
+
+.paragraph {
+  margin: 1rem 0;
+  transform: translateY(20px);
+  opacity: 0;
+  transition: 1s ease;;
+}
+
+.paragraph--visible {
+  transform: translateY(0);
+  opacity: 1;
+}
+
 /* Main/Home and main nav bar ---------------------------------------------*/
 
 #main-title-container {
