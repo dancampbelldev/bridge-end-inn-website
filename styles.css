@@ -342,13 +342,13 @@ body {
   transform: translate(-50%, -50%);
   border: 5px solid #fff;
   border-radius: 5px;
-  width: 750px;
+  height: 75%;
   object-fit: cover;
 }
 
 @media (max-width: 768px) {
   .popup-image img {
-    width: 95%;
+    max-width: 95%;
   }
 }
 
