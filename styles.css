@@ -404,6 +404,8 @@ body {
 #google-map {
   width: 340px;
   height: 300px;
+
+  /* Takes away gap between bottom of map and border */
   display: block;
   position: relative;
 }
