@@ -693,17 +693,38 @@ color: #fff;
 }
 
 @media (max-height: 750px) {
+
   .nav-m-item {
     font-size: 1.5em;
+  }
+
+  .nav-m-item > a {
+    padding-top: 5%;
   }
 }
 
 @media (max-height: 600px) {
+
   .nav-m-item {
     font-size: 1.2em;
   }
 
   .toggle-container {
     top: 2vh;
+  }
+}
+
+@media (max-height: 500px) {
+
+  .active {
+    height: 90vh;
+  }
+
+  .nav-m-item {
+    font-size: 1.2em;
+    height: 18vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
